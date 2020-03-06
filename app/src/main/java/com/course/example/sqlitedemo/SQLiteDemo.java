@@ -82,7 +82,6 @@ public class SQLiteDemo extends Activity {
             text.append(str + " " + Integer.toString(count) + "\n");
         }
         ;
-
     }
 
     // close database
