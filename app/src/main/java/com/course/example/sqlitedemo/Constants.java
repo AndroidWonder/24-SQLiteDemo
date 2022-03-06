@@ -12,4 +12,6 @@ public class Constants {
 			+ Constants.KEY_ID + "," + Constants.KEY_NAME + " text,"
 			+ Constants.KEY_Q + " integer);";
 
+
+
 }

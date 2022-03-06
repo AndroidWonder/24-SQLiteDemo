@@ -69,10 +69,10 @@ public class SQLiteDemo extends Activity {
         //insert a record with SQL
         db.execSQL("INSERT INTO animals (name, Quantity) VALUES('dragons',99);");
 
-        // query table and set sort order
+        // query table and sort result set by name
         cursor = db.query(Constants.TABLE_NAME, new String[]{
                         Constants.KEY_NAME, Constants.KEY_Q}, null, null, null, null,
-                "name");
+                "name" + " DESC");
 
         // write contents of Cursor to screen
         while (cursor.moveToNext()) {
